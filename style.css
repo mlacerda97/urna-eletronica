@@ -200,3 +200,25 @@ body {
     margin-top: 10px;
     font-size: 23px;
 }
+
+@media (min-width:769px) and (max-width: 1024px) {
+    .tela {
+        width: 400px;
+        height: 380px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .tela {
+        width: 390px;
+        height: 370px;
+    }
+    .teclado--botao {
+        width: 69px;
+        height: 35px;
+    }
+    .botao--confirma {
+        width: 90px;
+        height: 50px;
+    }
+}
